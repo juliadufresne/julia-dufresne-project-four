@@ -21,7 +21,7 @@
     margin-left: 20px;
     padding: 0px 10px;
     padding-top: 10px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #68b1c180 40%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #cbdbff98 40%);
 }
 
 .sports,
@@ -42,7 +42,7 @@
     grid-area: 1 / 1 / 2 / 4; 
     background-color: #f2f2f2;
     flex-direction: column;
-    color: #1585a0;
+    color:rgba(27, 27, 27, 0.75);
 
     p {
         @include fontSize(35);   
@@ -65,18 +65,18 @@
 
 .imageDiv1 {
     // background-image:  url(../assets/gallery1.jpg);
-    background-color: #dfcee5;
+    background-color: #dfe9ff;
 }
 
 .imageDiv2 {
     // background-image: url(../assets/gallery2.jpg);
-    background-color: #f5e9f6;
+    background-color: #cbdbff;
     margin: 20px;
 }
 
 .imageDiv3 {
     // background-image:  url(../assets/gallery3.jpg);
-    background-color: #e8d8ec;
+    background-color: rgb(224, 234, 255);
 }
 
 .eventDiv {
