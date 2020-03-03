@@ -24,11 +24,11 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #cbdbff98 40%);
 }
 
-.sports,
-.music,
-.arts,
 .date,
-.gallery {
+.gallery,
+.sportsContent,
+.artsContent,
+.musicContent {
     display: flex;
 }
 
@@ -103,7 +103,10 @@
 
 .sports,
 .music,
-.arts {
+.arts,
+.sportsContent,
+.artsContent,
+.musicContent {
     flex-wrap: wrap;
     background-color: #f2f2f2;
 }
@@ -167,7 +170,10 @@ ul {
 
             .sports,
             .music,
-            .arts {
+            .arts,
+            .sportsContent,
+            .artsContent,
+            .musicContent {
                 height: 50vh;
             }
         }

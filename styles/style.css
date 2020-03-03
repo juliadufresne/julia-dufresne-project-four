@@ -464,11 +464,11 @@ i:hover {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #cbdbff98 40%);
 }
 
-.sports,
-.music,
-.arts,
 .date,
-.gallery {
+.gallery,
+.sportsContent,
+.artsContent,
+.musicContent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -561,7 +561,10 @@ i:hover {
 
 .sports,
 .music,
-.arts {
+.arts,
+.sportsContent,
+.artsContent,
+.musicContent {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background-color: #f2f2f2;
@@ -631,7 +634,10 @@ ul {
   }
   .parent .sports,
   .parent .music,
-  .parent .arts {
+  .parent .arts,
+  .parent .sportsContent,
+  .parent .artsContent,
+  .parent .musicContent {
     height: 50vh;
   }
   .date {
